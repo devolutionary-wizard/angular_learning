@@ -33,6 +33,7 @@ export class AppComponent {
         return 'other';
     }
   }
+  
   detectBrowserVersion(){
     var userAgent = navigator.userAgent, tem, 
     matchTest = userAgent.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
